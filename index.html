@@ -84,7 +84,6 @@ body{font-family:'Montserrat',Arial,sans-serif;background:var(--white);color:var
 .carousel-wrap::before{left:0;background:linear-gradient(to right,var(--off-white),transparent)}
 .carousel-wrap::after{right:0;background:linear-gradient(to left,var(--off-white),transparent)}
 .carousel-track{display:flex;gap:12px;animation:carousel-scroll 32s linear infinite;width:max-content;padding:4px 0 12px}
-.carousel-track:hover{animation-play-state:paused}
 .carousel-track img{width:200px;height:200px;object-fit:cover;border-radius:12px;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.10)}
 @keyframes carousel-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 /* 5. BENEFÍCIOS */
@@ -350,7 +349,8 @@ body{font-family:'Montserrat',Arial,sans-serif;background:var(--white);color:var
         <p>Com a técnica no seu domínio, você adapta, cria e eventualmente vende. A renda extra vira consequência natural — não promessa vaga.</p>
       </div>
     </div>
-    <div class="carousel-wrap">
+    <p style="font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-mid);text-align:center;margin-top:48px;margin-bottom:0">Criações reais de quem aprendeu a técnica certa</p>
+    <div class="carousel-wrap" style="margin-top:16px">
       <div class="carousel-track">
         <img src="Imagens/soap/soap3.webp" alt="Sabonete artesanal">
         <img src="Imagens/soap/soap7.webp" alt="Sabonete artesanal">
