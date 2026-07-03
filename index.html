@@ -37,8 +37,9 @@ body{font-family:'Montserrat',Arial,sans-serif;background:var(--white);color:var
 .h2{font-size:clamp(24px,3vw,38px);font-weight:900;color:var(--black);margin-bottom:16px;letter-spacing:-.5px;line-height:1.15}
 .h2 span{color:var(--blue)}
 .lead{font-size:16px;color:var(--gray-mid);line-height:1.75;margin-bottom:32px}
-.btn-cta{display:inline-block;text-align:center;background:var(--yellow);color:var(--black);text-decoration:none;font-size:15px;font-weight:800;padding:16px 36px;border-radius:8px;transition:opacity .15s,transform .12s;letter-spacing:.01em}
-.btn-cta:hover{opacity:.92;transform:translateY(-1px)}
+.btn-cta{display:inline-block;text-align:center;background:var(--yellow);color:var(--black);text-decoration:none;font-size:17px;font-weight:900;padding:20px 40px;border-radius:10px;transition:opacity .15s,transform .12s;letter-spacing:.04em;text-transform:uppercase;box-shadow:0 0 0 0 rgba(245,206,62,.7);animation:cta-pulse 2s ease-out infinite}
+.btn-cta:hover{opacity:.92;transform:translateY(-2px);animation:none}
+@keyframes cta-pulse{0%{box-shadow:0 0 0 0 rgba(245,206,62,.7)}70%{box-shadow:0 0 0 14px rgba(245,206,62,0)}100%{box-shadow:0 0 0 0 rgba(245,206,62,0)}}
 .btn-secondary{display:inline-block;text-align:center;background:var(--blue);color:var(--white);text-decoration:none;font-size:14px;font-weight:800;padding:14px 28px;border-radius:8px;transition:opacity .15s;width:100%}
 .btn-secondary:hover{opacity:.88}
 
