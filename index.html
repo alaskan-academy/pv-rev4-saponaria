@@ -487,13 +487,19 @@ body{font-family:'Montserrat',Arial,sans-serif;background:var(--white);color:var
 <section class="sec oferta" id="oferta">
   <div class="sec-inner">
     <div class="oferta-box">
-      <div class="eyebrow">Acesso Vitalício Para Todas Alunas</div>
-      <img src="Imagens/saponaria-rev4-img5.webp" alt="Saponaria Brasil" style="width:100%;max-width:520px;border-radius:12px;display:block;margin:20px auto 28px">
-      <h2>Saponaria Brasil por apenas <span>12x de R$6,58</span></h2>
-      <div class="oferta-price-old">de R$197</div>
-      <div class="oferta-price">12x R$6,58</div>
-      <div class="oferta-price-note">ou R$67 à vista · acesso vitalício · garantia de 7 dias</div>
-      <ul class="oferta-features">
+      <img src="Imagens/saponaria-rev4-img5.webp" alt="Saponaria Brasil" style="width:100%;max-width:480px;border-radius:12px;display:block;margin:0 auto 24px">
+
+      <!-- Preço -->
+      <p style="color:#f87171;font-size:14px;font-weight:700;margin-bottom:6px">Preço antigo: <span style="text-decoration:line-through">R$197,00</span></p>
+      <h2 style="font-size:clamp(20px,3vw,28px);font-weight:900;color:var(--white);margin-bottom:16px">Curso Saponaria Brasil 2.0 (completo)<br>com desconto:</h2>
+      <div style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:12px;padding:20px 24px;margin-bottom:24px">
+        <div style="font-size:clamp(26px,5vw,44px);font-weight:900;color:var(--yellow);line-height:1.1;margin-bottom:8px">12x de R$6,58</div>
+        <div style="font-size:clamp(15px,2.5vw,20px);font-weight:700;color:rgba(255,255,255,.85)">ou <strong>R$67,00</strong> à vista</div>
+      </div>
+
+      <!-- O que você recebe -->
+      <p style="font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--green);margin-bottom:12px">O que está incluso:</p>
+      <ul class="oferta-features" style="margin-bottom:28px">
         <li>Acesso Imediato ao Curso em Vídeo Saponaria Brasil 2.0</li>
         <li>Apostilas de aprendizado</li>
         <li>Grupo de Avisos no WhatsApp</li>
@@ -505,8 +511,26 @@ body{font-family:'Montserrat',Arial,sans-serif;background:var(--white);color:var
         <li>BÔNUS #6 FAQ Completo da Saboaria Glicerinada</li>
         <li>Garantia de 7 Dias</li>
       </ul>
-      <a href="https://checkout.payt.com.br/6faabe3927929719a6063a31774030c4?utm_source=site-handify&utm_medium=pv&utm_campaign=saponaria&utm_content=oferta1" class="btn-cta" target="_blank" rel="noopener" style="max-width:420px;display:inline-block;width:100%">Aperte aqui para comprar</a>
-      <p class="oferta-guarantee">🔒 Clique com segurança — garantia incondicional de 7 dias</p>
+
+      <!-- Instrução + setas + botão -->
+      <p style="font-size:14px;font-weight:700;color:rgba(255,255,255,.75);margin-bottom:12px">Aperte no botão amarelo para fazer sua inscrição</p>
+      <div style="display:flex;justify-content:center;gap:36px;margin-bottom:10px">
+        <svg width="24" height="32" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0 Q4 10 12 20" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round" fill="none"/><path d="M12 20 L8 14 M12 20 L16 14" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <svg width="24" height="32" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2 L12 22" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/><path d="M12 22 L8 16 M12 22 L16 16" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <svg width="24" height="32" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0 Q20 10 12 20" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round" fill="none"/><path d="M12 20 L8 14 M12 20 L16 14" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/></svg>
+      </div>
+      <a href="https://checkout.payt.com.br/6faabe3927929719a6063a31774030c4?utm_source=site-handify&utm_medium=pv&utm_campaign=saponaria&utm_content=oferta1" class="btn-cta" target="_blank" rel="noopener" style="max-width:460px;display:inline-block;width:100%;font-size:clamp(16px,3vw,20px);padding:22px 40px">Aperte aqui para comprar</a>
+
+      <!-- Selos de pagamento -->
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin-top:16px">
+        <span style="font-size:11px;font-weight:700;color:rgba(255,255,255,.5);display:flex;align-items:center;gap:4px">🔒 Compra 100% Segura</span>
+        <span style="color:rgba(255,255,255,.25);font-size:11px">·</span>
+        <span style="font-size:11px;color:rgba(255,255,255,.45);font-weight:600">Visa</span>
+        <span style="font-size:11px;color:rgba(255,255,255,.45);font-weight:600">Mastercard</span>
+        <span style="font-size:11px;color:rgba(255,255,255,.45);font-weight:600">Elo</span>
+        <span style="font-size:11px;color:rgba(255,255,255,.45);font-weight:600">Pix</span>
+        <span style="font-size:11px;color:rgba(255,255,255,.45);font-weight:600">Boleto</span>
+      </div>
     </div>
   </div>
 </section>
