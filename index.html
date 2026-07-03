@@ -951,8 +951,7 @@ var urgTarget=(function(){var d=new Date();d.setHours(23,59,59,0);return d;})();
 function updateCountdown(){
   var diff=urgTarget-new Date();
   if(diff<=0){var b=document.querySelector('.countdown-box');if(b)b.innerHTML='<p style="color:rgba(255,255,255,.6);font-size:14px">O período de revisão foi encerrado.</p>';return;}
-  document.getElementById('cd-days').textContent=String(Math.floor(diff/86400000)).padStart(2,'0');
-  document.getElementById('cd-hours').textContent=String(Math.floor((diff%86400000)/3600000)).padStart(2,'0');
+  document.getElementById('cd-hours').textContent=String(Math.floor(diff/3600000)).padStart(2,'0');
   document.getElementById('cd-minutes').textContent=String(Math.floor((diff%3600000)/60000)).padStart(2,'0');
   document.getElementById('cd-seconds').textContent=String(Math.floor((diff%60000)/1000)).padStart(2,'0');
 }
